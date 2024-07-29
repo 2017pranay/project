@@ -2,8 +2,8 @@
 body{
     height: 100px;
     padding: 0px;
-    background-color:black
-    border: 2px solid black;
+    background-color:aliceblue;
+    
     background-size: 100%;
 }
 #Navbar{
@@ -11,7 +11,8 @@ body{
      padding-bottom: 21.8px;
      display: flex;
      justify-content: space-between;
-     height: 30px;
+     height: 70px;
+     background-color:white
 }
 #flipport{
     display: flex;
@@ -37,5 +38,35 @@ body{
    align-items: center;
    margin-left:10px;
 
+}
+#product{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+    background-color: white;
+
+}
+#add{
+    margin-top: 10px;
+    
+}
+#Electronics{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;  
+     gap: 2px;
+}
+.eleproduct{
+    border-width: 0.20px;
+    box-sizing:border-box;
+    border: 0.4px solid #e0e0e0;
+    padding: 6px;
+    margin-top: 8px;
+    cursor: pointer;
+    background-color: white;
+    height: 310px;
+    width: 250px;
+    align-items: center;
+    text-align: center;
 }
     
